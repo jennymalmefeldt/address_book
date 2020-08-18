@@ -30,8 +30,9 @@ button {
 }
 
 input[type="text"] {
-    width: 100%;
-    padding: 20px 20px
+    width: 10;
+    padding: 15px 20px
+    
 
 }
 
@@ -46,12 +47,19 @@ form {
 div {
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 }
 
-label {
-    shape-outside: content-box;
+
+#new-contact-form {
+    display: inline-block;
+    font-size: large;
 }
 
-img {
-   
+form, input {
+    height: 30px;
+    margin-top: 50px;
+    margin-right: 10px;
+    display: inline-block;
 }
+
